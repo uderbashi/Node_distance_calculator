@@ -1,4 +1,4 @@
-# Node_distance_calculator
+# Node distance calculator
 This repo  has code for a client and a multithreaded server. The server starts with a graph, and the client requests the distance between two nodes.
 
 The graph is taken from https://snap.stanford.edu/data/ , and then parsed and stored on the server side. It also spins multiple threads which recive connections from multiple clients to serve them.
